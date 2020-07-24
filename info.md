@@ -12,3 +12,5 @@ Home Assistant dark theme, built on from @JuanMTech, using style boilerplates fr
 This theme depends on [`card-mod`](https://github.com/thomasloven/lovelace-card-mod) for the soft-ui styling.
 ## Screenshot
 [![Screenshot of it](https://raw.githubusercontent.com/KTibow/lovelace-dark-soft-ui-theme/master/darktheme.png)](#)
+## More details
+Go see more [over on GitHub](https://github.com/KTibow/lovelace-light-soft-ui-theme/).
