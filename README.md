@@ -4,3 +4,4 @@ Home Assistant dark theme, built on from @JuanMTech, using style boilerplates fr
 This theme depends on [`card-mod`](https://github.com/thomasloven/lovelace-card-mod) for the soft-ui styling.
 ## Screenshot
 [![Screenshot of it](darktheme.png)](#)
+*Note: I've changed the theme so the header's background is black instead of purple since this screenshot was taken.*
