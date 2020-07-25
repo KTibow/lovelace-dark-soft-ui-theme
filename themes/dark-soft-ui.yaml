@@ -106,7 +106,7 @@ Dark Soft UI:
       }
   card-mod-view: |
     #badges {
-      width: 95%;
+      width: 90%;
       margin: 8px auto !important;
     }
     #columns {
