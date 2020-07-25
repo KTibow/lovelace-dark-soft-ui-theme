@@ -64,10 +64,17 @@ Dark Soft UI:
     .: |
       ha-card:not(.type-markdown) {
         background-color: var(--primary-background-color);
+        border-radius: var(--ha-card-border-radius);
       }
-      ha-card:not(.type-markdown):not(.type-custom-button-card):not(.type-entities):not(.type-custom-mod-card) {
+      ha-card:not(.type-markdown):not(.type-custom-button-card):not(.type-entities):not(.type-custom-mod-card):not(.type-custom-bar-card) {
         margin: 30px;
         box-shadow: -8px -8px 8px 0 rgba(50, 50, 50,.5),8px 8px 8px 0 rgba(0,0,0,.15);
+      }
+      ha-card.type-custom-vacuum-card > .preview {
+        --primary-color: var(--primary-background-color);
+      }
+      ha-card.type-custom-vacuum-card > .preview > * {
+        color: var(--primary-text-color);
       }
       ha-card.type-picture-entity {
         padding: 10px;
@@ -76,7 +83,7 @@ Dark Soft UI:
         margin: 10px;
         border-radius: 18px;
       }
-      ha-card.type-entities {
+      ha-card.type-entities, ha-card.type-custom-bar-card {
         box-shadow: none !important;
         margin: 30px 20px;
       }
@@ -103,6 +110,11 @@ Dark Soft UI:
       ha-card > .card-header > .name {
         text-align: center;
         width: 100%;
+      }
+      ha-card.type-custom-bar-card > .card-header {
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
       }
   card-mod-view: |
     #badges {
