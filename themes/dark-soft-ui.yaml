@@ -94,14 +94,13 @@ Dark Soft UI:
         margin: 30px 20px;
       }
       ha-card > #states > div > * {
-        display: block;
         padding-top: 8px;
         padding-bottom: 8px;
         width: 95%;
         margin: 0 auto 0 5px;
       }
-      ha-card > #states > div > hui-button-row, hui-input-select-entity-row {
-        display: flex;
+      ha-card > #states > div > *:not(hui-button-row):not(hui-input-select-entity-row):not(hui-input-number-entity-row):not(hui-input-text-entity-row) {
+        display: block;
       }
       ha-card.type-media-control, ha-card.type-media-control > * {
         background-color: var(--primary-background-color) !important;
@@ -112,6 +111,9 @@ Dark Soft UI:
         border-radius: var(--ha-card-border-radius);
         margin: 12px;
         padding: 10px;
+      }
+      ha-card > .header-footer {
+        margin: 25px 12px;
       }
       ha-card > .card-header {
         box-shadow: none;
