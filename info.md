@@ -18,6 +18,5 @@ Looking for the [light theme instead?](https://github.com/KTibow/lovelace-light-
 - Gives cards in dashboards and cards everywhere soft UI
 ## Screenshot
 [![Screenshot of it](https://raw.githubusercontent.com/KTibow/lovelace-dark-soft-ui-theme/master/darktheme.png)](#)
-*Note: I've changed the theme so the header's background is black instead of purple since this screenshot was taken.*
 ## More details
 Go see more [over on GitHub](https://github.com/KTibow/lovelace-light-soft-ui-theme/).
