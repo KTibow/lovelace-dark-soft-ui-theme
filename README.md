@@ -5,7 +5,6 @@ This theme depends on [`card-mod`](https://github.com/thomasloven/lovelace-card-
 Looking for the [light theme instead?](https://github.com/KTibow/lovelace-light-soft-ui-theme/)  
 ## Screenshot
 [![Screenshot of it](darktheme.png)](#)
-*Note: I've changed the theme so the header's background is black instead of purple since this screenshot was taken.*
 ## Features
 - Can instantly declutter an auto-generated dashboard, without needing to edit it (and disable auto-generation).
 - Works with auto-generated dashboards and handmade ones
