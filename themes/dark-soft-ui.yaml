@@ -76,6 +76,12 @@ Dark Soft UI:
       ha-card.type-custom-vacuum-card > .preview > * {
         color: var(--primary-text-color);
       }
+      ha-card.type-custom-vacuum-card > .preview > .header > .battery > ha-icon {
+        color: var(--primary-text-color);
+      }
+      ha-card.type-custom-vacuum-card > .preview > .metadata > .vacuum-name {
+        color: var(--primary-text-color);
+      }
       ha-card.type-picture-entity {
         padding: 10px;
       }
