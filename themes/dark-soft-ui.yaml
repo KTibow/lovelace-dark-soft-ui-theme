@@ -94,7 +94,7 @@ Dark Soft UI:
         margin: 10px;
         border-radius: 18px;
       }
-      ha-card.type-entities, ha-card.type-custom-bar-card, ha-card.type-history-graph {
+      ha-card.type-entities, ha-card.type-custom-bar-card, ha-card.type-entity, ha-card.type-history-graph, ha-card.type-map {
         box-shadow: none !important;
         margin: 30px 20px;
       }
@@ -111,13 +111,15 @@ Dark Soft UI:
         background-color: var(--primary-background-color) !important;
         color: var(--secondary-text-color) !important;
       }
-      ha-card > #states, .header-footer {
+      ha-card > #states,
+      ha-card > .header-footer,
+      ha-card:not(.type-humidifier) > .content {
         box-shadow: -8px -8px 8px 0 rgba(50, 50, 50,.5), 8px 8px 8px 0 rgba(0,0,0,.15);
         border-radius: var(--ha-card-border-radius);
         margin: 12px;
         padding: 10px;
       }
-      ha-card.type-history-graph > .content {
+      ha-card.type-map > #root {
         box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
         border-radius: var(--ha-card-border-radius);
         margin: 12px;
@@ -142,12 +144,9 @@ Dark Soft UI:
       ha-card > .card-header > hui-entities-toggle {
         margin: 0 25px 0 -25px;
       }
-      ha-card.type-custom-bar-card > .card-header {
-        text-align: center;
-        width: 70%;
-        margin: 0 auto;
-      }
-      ha-card.type-history-graph > .card-header {
+      ha-card.type-custom-bar-card > .card-header,
+      ha-card.type-history-graph > .card-header,
+      ha-card.type-map > .card-header {
         text-align: center;
         width: 70%;
         margin: 0 auto;
@@ -206,7 +205,7 @@ Dark Soft UI:
   card-mod-more-info-yaml: |
     $: |
       .mdc-dialog {
-        backdrop-filter: blur(2.5px);
+        backdrop-filter: blur(2px);
         background: rgba(0, 0, 0, 0.35);
       }
       .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
