@@ -84,7 +84,7 @@ Dark Soft UI:
         background-color: var(--primary-background-color);
         border-radius: var(--ha-card-border-radius);
       }
-      ha-card:not(.type-markdown):not(.type-custom-button-card):not(.type-entities):not(.type-custom-mod-card):not(.type-custom-bar-card):not(.type-history-graph):not(.type-iframe) {
+      ha-card:not(.type-markdown):not(.type-custom-button-card):not(.type-entities):not(.type-custom-mod-card):not(.type-custom-bar-card):not(.type-history-graph):not(.type-iframe):not(.type-glance) {
         margin: 20px 0;
         box-shadow: -8px -8px 8px 0 rgba(50, 50, 50,.5),8px 8px 8px 0 rgba(0,0,0,.15);
       }
@@ -109,7 +109,9 @@ Dark Soft UI:
         margin: 10px;
         border-radius: 18px;
       }
-      ha-card.type-entities, ha-card.type-custom-bar-card, ha-card.type-entity, ha-card.type-history-graph, ha-card.type-map, ha-card.type-iframe {
+      ha-card.type-entities, ha-card.type-custom-bar-card, ha-card.type-entity,
+      ha-card.type-history-graph, ha-card.type-map, ha-card.type-iframe,
+      ha-card.type-glance {
         box-shadow: none !important;
         margin: 30px 0;
       }
@@ -129,6 +131,7 @@ Dark Soft UI:
       ha-card > #states,
       ha-card > .header-footer,
       ha-card > hui-graph-header-footer,
+      ha-card.type-glance > .entities,
       ha-card:not(.type-humidifier):not(.type-light):not(.type-weather-forecast) > .content {
         box-shadow: -8px -8px 8px 0 rgba(50, 50, 50,.5), 8px 8px 8px 0 rgba(0,0,0,.15);
         border-radius: var(--ha-card-border-radius);
@@ -167,7 +170,8 @@ Dark Soft UI:
       ha-card.type-history-graph > .card-header,
       ha-card.type-map > .card-header,
       ha-card.type-iframe > .card-header,
-      ha-card.type-shopping-list > .card-header {
+      ha-card.type-shopping-list > .card-header,
+      ha-card.type-glance > .card-header {
         text-align: center;
         width: 70%;
         margin: 0 auto;
