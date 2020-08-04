@@ -128,6 +128,7 @@ Dark Soft UI:
       }
       ha-card > #states,
       ha-card > .header-footer,
+      ha-card > hui-graph-header-footer,
       ha-card:not(.type-humidifier):not(.type-light):not(.type-weather-forecast) > .content {
         box-shadow: -8px -8px 8px 0 rgba(50, 50, 50,.5), 8px 8px 8px 0 rgba(0,0,0,.15);
         border-radius: var(--ha-card-border-radius);
