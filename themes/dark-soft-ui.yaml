@@ -53,7 +53,6 @@ Dark Soft UI:
   primary-name-text-color: grey
   primary-state-text-color: grey
   primary-icon-color: grey
-  ha-card-box-shadow: -5px -5px 8px 0 rgba(255,255,255,.5),5px 5px 8px 0 rgba(0,0,0,.03);
   ha-card-box-shadow-inset: inset -4px -4px 8px 0 rgba(255,255,255,.5), inset 4px 4px 8px 0 rgba(0,0,0,.03)
   primary-yellow: '#fad46b'
   dark-primary-yellow: '#dab44b'
@@ -85,7 +84,7 @@ Dark Soft UI:
         background-color: var(--primary-background-color);
         border-radius: var(--ha-card-border-radius);
       }
-      ha-card:not(.type-markdown):not(.type-custom-button-card):not(.type-entities):not(.type-custom-mod-card):not(.type-custom-bar-card):not(.type-history-graph) {
+      ha-card:not(.type-markdown):not(.type-custom-button-card):not(.type-entities):not(.type-custom-mod-card):not(.type-custom-bar-card):not(.type-history-graph):not(.type-iframe) {
         margin: 20px 0;
         box-shadow: -8px -8px 8px 0 rgba(50, 50, 50,.5),8px 8px 8px 0 rgba(0,0,0,.15);
       }
@@ -108,7 +107,7 @@ Dark Soft UI:
         margin: 10px;
         border-radius: 18px;
       }
-      ha-card.type-entities, ha-card.type-custom-bar-card, ha-card.type-entity, ha-card.type-history-graph, ha-card.type-map {
+      ha-card.type-entities, ha-card.type-custom-bar-card, ha-card.type-entity, ha-card.type-history-graph, ha-card.type-map, ha-card.type-iframe {
         box-shadow: none !important;
         margin: 30px 0;
       }
@@ -133,11 +132,14 @@ Dark Soft UI:
         margin: 12px;
         padding: 10px;
       }
-      ha-card.type-map > #root {
+      ha-card.type-map, ha-card.type-iframe > #root {
         box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
         border-radius: var(--ha-card-border-radius);
         margin: 12px;
         padding: 10px;
+      }
+      ha-card.type-iframe > #root > iframe {
+        border-radius: var(--ha-card-border-radius);
       }
       ha-card.type-entity > .info {
         padding: 16px;
@@ -160,7 +162,8 @@ Dark Soft UI:
       }
       ha-card.type-custom-bar-card > .card-header,
       ha-card.type-history-graph > .card-header,
-      ha-card.type-map > .card-header {
+      ha-card.type-map > .card-header,
+      ha-card.type-iframe > .card-header {
         text-align: center;
         width: 70%;
         margin: 0 auto;
