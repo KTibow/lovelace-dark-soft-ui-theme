@@ -1,5 +1,4 @@
 # Lovelace Soft UI dark theme
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)  
 {% if installed %}
 **Thanks for installing!**
 {% else %}
@@ -19,4 +18,5 @@ Looking for the [light theme instead?](https://github.com/KTibow/lovelace-light-
 ## Screenshot
 [![Screenshot of it](https://raw.githubusercontent.com/KTibow/lovelace-dark-soft-ui-theme/master/darktheme.png)](#)
 ## More details
+Note: This will clamp your columns to 1 column wide. [More info.](https://github.com/KTibow/lovelace-light-soft-ui-theme/issues/6#issuecomment-669204209)
 Go see more [over on GitHub](https://github.com/KTibow/lovelace-light-soft-ui-theme/).
