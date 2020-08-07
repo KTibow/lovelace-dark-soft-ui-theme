@@ -63,14 +63,14 @@ Dark Soft UI:
   primary-state-text-color: grey
   primary-icon-color: grey
   ha-card-box-shadow-inset: inset -5.5px -5.5px 5.5px 0 rgba(60, 60, 60, .6), inset 5.5px 5.5px 5.5px 0 rgba(0, 0, 0, .5)
-  primary-yellow: '#FAD46B'
-  dark-primary-yellow: '#DAB44B'
-  red: '#DC3545'
-  orange: '#FD7E14'
-  yellow: '#FFC107'
-  green: '#28A745'
-  blue: '#007BFF'
-  purple: '#6D42C1'
+  primary-yellow: "#FAD46B"
+  dark-primary-yellow: "#DAB44B"
+  red: "#DC3545"
+  orange: "#FD7E14"
+  yellow: "#FFC107"
+  green: "#28A745"
+  blue: "#007BFF"
+  purple: "#6D42C1"
   # Card-mod
   card-mod-theme: "Dark Soft UI"
   theme-red: firebrick
