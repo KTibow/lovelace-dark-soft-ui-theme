@@ -16,8 +16,8 @@ Dark Soft UI:
   text-primary-color: "#FFFFFF"
   disabled-text-color: "#616387"
   # Sidebar Menu Colors
-  sidebar-icon-color: var(--primary-text-color)
-  sidebar-text-color: var(--primary-text-color)
+  sidebar-icon-color: "#E7E8EA"
+  sidebar-text-color: var(--sidebar-icon-color)
   sidebar-background-color: var(--primary-background-color)
   sidebar-selected-background-color: var(--primary-background-color)
   sidebar-selected-icon-color: var(--secondary-text-color)
@@ -50,10 +50,6 @@ Dark Soft UI:
   paper-toggle-button-checked-bar-color: "#262938"
   paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
   paper-toggle-button-unchecked-bar-color: var(--paper-toggle-button-unchecked-bar-color)
-  switch-checked-button-color: var(--paper-toggle-button-checked-button-color)
-  switch-checked-track-color: var(--paper-toggle-button-checked-bar-color)
-  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
-  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
   # Table Colors
   table-row-background-color: var(--primary-background-color)
   table-row-alternative-background-color: var(--primary-background-color)
