@@ -17,7 +17,7 @@ And [these things are supported](https://github.com/KTibow/lovelace-light-soft-u
 ## Notes
 - You can use your own colors by just copy/pasting the card-mod part.
 - This will clamp your columns to 1 column wide. [More info.](https://github.com/KTibow/lovelace-light-soft-ui-theme/issues/6#issuecomment-669204209)
-- These notes may be outdated, and most of the time you can just use `!important`. You should probably just look at the [source](https://git.io/JJBZi).
+- These other notes may be outdated, and most of the time you can just use `!important`. You should probably just look at the [source](https://git.io/JJBZi).
 <details><summary>Expand anyway</summary>
 
 This theme can modify how you style cards. [Source code of CSS part of theme](https://git.io/JJBZi) Here's some points:
