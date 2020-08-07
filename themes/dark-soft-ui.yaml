@@ -202,6 +202,73 @@ Dark Soft UI:
       ha-icon[data-domain="fan"][data-state="on"] {
         animation: spin 4s infinite linear;
       }
+  card-mod-root-yaml: |
+    paper-tabs:
+      $: |
+        .not-visible {
+          display: none;
+        }
+    .: |
+      app-toolbar:not(.edit-mode) {
+        height: 0;
+      }
+      app-toolbar {
+        background-color: var(--primary-background-color) !important;
+      }
+      .edit-mode {
+        background-color: var(--primary-background-color) !important;
+        color: var(--primary-text-color) !important;
+      }
+      ha-button-menu {
+        top: 24px;
+        z-index: 2;
+        margin-left: calc(100% - 48px);
+      }
+      app-toolbar:not(.edit-mode) > [main-title] {
+        display: none;
+      }
+      menu-button[style="visibility: hidden;"] {
+        display: none;
+      }
+      ha-menu-button {
+        z-index: 2;
+        top: 24px;
+      }
+      paper-tabs {
+        --paper-tabs-selection-bar-color: var(--primary-color) !important;
+        margin-left: 32px !important;
+      }
+      paper-tab[aria-selected="true"] > ha-icon {
+        color: var(--primary-color) !important;
+      }
+      @media (orientation: portrait) {
+        ha-button-menu {
+          margin-left: calc(100% - 80px);
+        }
+        paper-tabs {
+          margin-left: 64px !important;
+          margin-right: 32px !important;
+        }
+        ch-header > paper-tabs,
+        app-header.edit-mode > * > paper-tabs {
+          margin-left: 10px !important;
+          margin-right: 10px !important;
+        }
+      }
+      ch-header > ha-button-menu,
+      app-toolbar.edit-mode > ha-button-menu {
+        top: unset;
+        margin-left: unset;
+      }
+      ch-header > ha-menu-button,
+      app-toolbar.edit-mode > ha-menu-button {
+        top: unset;
+        margin-left: unset;
+      }
+      ch-header > paper-tabs,
+      app-header.edit-mode > paper-tabs {
+        margin-left: 0;
+      }
   card-mod-view: |
     #badges {
       width: 90%;
