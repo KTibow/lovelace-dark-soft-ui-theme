@@ -2,7 +2,7 @@
 Dark Soft UI:
   # Interface colors:
   primary-color: "#4C3FF9"
-  light-primary-color: "#6F64FA"
+  light-primary-color: var(--primary-color)
   primary-background-color: "#262938"
   secondary-background-color: var(--primary-background-color)
   divider-color: var(--primary-background-color)
@@ -11,7 +11,7 @@ Dark Soft UI:
   accent-color: var(--primary-color)
   # Text colors:
   primary-text-color: "#F7F8FA"
-  secondary-text-color: "#8EEDDF"
+  secondary-text-color: var(--primary-text-color)
   text-primary-color: "#FFFFFF"
   disabled-text-color: "#616387"
   # Menu colors:
@@ -24,11 +24,11 @@ Dark Soft UI:
   app-header-background-color: var(--primary-background-color)
   app-header-text-color: var(--primary-text-color)
   # State and badge colors:
-  state-icon-color: "#00ECCA"
+  state-icon-color: var(--primary-color)
   state-icon-active-color: "#F7AA1C"
   state-icon-unavailable-color: var(--disabled-text-color)
   # Slider colors:
-  paper-slider-knob-color: "#00ECCA"
+  paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
