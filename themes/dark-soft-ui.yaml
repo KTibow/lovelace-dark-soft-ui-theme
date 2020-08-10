@@ -1,20 +1,20 @@
 # Thanks @JuanMTech, @thomasloven, and @N-l1.
 Dark Soft UI:
-  # Interface Colors
+  # Interface colors:
   primary-color: "#4C3FF9"
   light-primary-color: "#6F64FA"
   primary-background-color: "#262938"
   secondary-background-color: var(--primary-background-color)
   divider-color: var(--primary-background-color)
-  card-background-color: var(--paper-card-background-color)
+  card-background-color: var(--primary-background-color)
   mdc-theme-secondary: var(--primary-color)
   accent-color: var(--primary-color)
-  # Text Colors
+  # Text colors:
   primary-text-color: "#F7F8FA"
   secondary-text-color: "#8EEDDF"
   text-primary-color: "#FFFFFF"
   disabled-text-color: "#616387"
-  # Menu Colors
+  # Menu colors:
   sidebar-icon-color: "#E7E8EA"
   sidebar-text-color: var(--sidebar-icon-color)
   sidebar-background-color: var(--primary-background-color)
@@ -23,17 +23,17 @@ Dark Soft UI:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   app-header-background-color: var(--primary-background-color)
   app-header-text-color: var(--primary-text-color)
-  # State and Badge Colors
+  # State and badge colors:
   state-icon-color: "#00ECCA"
   state-icon-active-color: "#F7AA1C"
   state-icon-unavailable-color: var(--disabled-text-color)
-  # Slider Colors
+  # Slider colors:
   paper-slider-knob-color: "#00ECCA"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
   paper-slider-secondary-color: var(--light-primary-color)
-  # Label Colors
+  # Label colors:
   label-badge-background-color: "#2E2F40"
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: "#C7484C"
@@ -41,25 +41,25 @@ Dark Soft UI:
   label-badge-blue: "#51AAD1"
   label-badge-yellow: "#D9B757"
   label-badge-gray: "#5F6267"
-  # Card Stuff + Colors
+  # Card stuff:
   ha-card-border-radius: "15px"
   ha-card-box-shadow: -5.5px -5.5px 5.5px 0 rgba(50, 50, 50,.5), 5.5px 5.5px 5.5px 0 rgba(0, 0, 0, .15)
   paper-card-background-color: var(--primary-background-color)
   paper-listbox-background-color: var(--primary-background-color)
-  # Switch + Toggle Colors
+  # Switch and toggle colors:
   paper-toggle-button-checked-button-color: "#4C3FF9"
   paper-toggle-button-checked-bar-color: "#262938"
   paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
   paper-toggle-button-unchecked-bar-color: var(--paper-toggle-button-unchecked-bar-color)
-  # Table Colors
+  # Table colors:
   table-row-background-color: var(--primary-background-color)
   table-row-alternative-background-color: var(--primary-background-color)
   data-table-background-color: var(--primary-background-color)
-  # Dropdown Colors
+  # Dropdown colors:
   material-background-color: var(--primary-background-color)
   material-secondary-background-color: var(--primary-background-color)
   mdc-theme-surface: var(--primary-background-color)
-  # Convenience
+  # Convenience:
   primary-name-text-color: grey
   primary-state-text-color: grey
   primary-icon-color: grey
@@ -74,7 +74,7 @@ Dark Soft UI:
   green: "#28A745"
   blue: "#007BFF"
   purple: "#6D42C1"
-  # Card-mod
+  # Card-mod:
   card-mod-theme: "Dark Soft UI"
   theme-red: firebrick
   theme-green: forestgreen
