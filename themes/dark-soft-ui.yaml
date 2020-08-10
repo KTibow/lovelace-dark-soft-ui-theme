@@ -15,11 +15,11 @@ Dark Soft UI:
   text-primary-color: "#FFFFFF"
   disabled-text-color: "#616387"
   # Menu colors:
-  sidebar-icon-color: "#E7E8EA"
+  sidebar-icon-color: var(--primary-text-color)
   sidebar-text-color: var(--sidebar-icon-color)
   sidebar-background-color: var(--primary-background-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: var(--secondary-text-color)
+  sidebar-selected-icon-color: var(--primary-text-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   app-header-background-color: var(--primary-background-color)
   app-header-text-color: var(--primary-text-color)
