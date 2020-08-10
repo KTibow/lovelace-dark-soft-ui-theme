@@ -53,7 +53,7 @@ Dark Soft UI:
   paper-toggle-button-unchecked-bar-color: var(--paper-toggle-button-unchecked-bar-color)
   # Table colors:
   table-row-background-color: var(--primary-background-color)
-  table-row-alternative-background-color: var(--primary-background-color)
+  table-row-alternative-background-color: rgba(255, 255, 255, 0.1)
   data-table-background-color: var(--primary-background-color)
   # Dropdown colors:
   material-background-color: var(--primary-background-color)
