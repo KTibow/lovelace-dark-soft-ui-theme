@@ -2,7 +2,7 @@
 Dark Soft UI:
   # Interface colors:
   primary-color: "#4C3FF9"
-  light-primary-color: var(--primary-color)
+  light-primary-color: "#6459FF"
   primary-background-color: "#262938"
   secondary-background-color: var(--primary-background-color)
   divider-color: var(--primary-background-color)
@@ -16,11 +16,11 @@ Dark Soft UI:
   disabled-text-color: "#616387"
   # Menu colors:
   sidebar-icon-color: var(--primary-text-color)
-  sidebar-text-color: var(--sidebar-icon-color)
+  sidebar-text-color: var(--primary-text-color)
   sidebar-background-color: var(--primary-background-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: var(--primary-text-color)
-  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--light-primary-color)
   app-header-background-color: var(--primary-background-color)
   app-header-text-color: var(--primary-text-color)
   # State and badge colors:
