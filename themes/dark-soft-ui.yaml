@@ -5,6 +5,7 @@ Dark Soft UI:
   light-primary-color: "#8880FF"
   accent-color: "#6085EB"
   mdc-theme-secondary: var(--accent-color)
+  error-color: "#D18E41"
   # Background
   primary-background-color: "#262938"
   secondary-background-color: var(--primary-background-color)
