@@ -11,7 +11,7 @@ Dark Soft UI Cyan:
   warning-color: "#EBEB60"
   error-color: "#D18941"
   # Background
-  primary-background-color: "#323738"
+  primary-background-color: "#313738"
   secondary-background-color: var(--primary-background-color)
   # Text
   primary-text-color: "#F7F8FA"

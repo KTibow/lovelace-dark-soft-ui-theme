@@ -11,7 +11,7 @@ Dark Soft UI Orange:
   warning-color: "#EBEB60"
   error-color: "#D18941"
   # Background
-  primary-background-color: "#383632"
+  primary-background-color: "#383531"
   secondary-background-color: var(--primary-background-color)
   # Text
   primary-text-color: "#F7F8FA"

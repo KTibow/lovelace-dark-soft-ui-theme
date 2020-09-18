@@ -26,7 +26,7 @@ for color_name, color_hue in [
     primary_color = convert_color(primary_color)
     accent_color = colorsys.hsv_to_rgb(((color_hue - 15) % 360) / 360.0, 0.59, 0.92)
     accent_color = convert_color(accent_color)
-    background_color = colorsys.hsv_to_rgb(color_hue / 360.0, 0.11, 0.22)
+    background_color = colorsys.hsv_to_rgb(color_hue / 360.0, 0.12, 0.22)
     background_color = convert_color(background_color)
     file_color_name = color_name.lower().replace(" ", "-")
     with open(rf"themes\dark-soft-ui-{file_color_name}.yaml", "w") as theme_file:

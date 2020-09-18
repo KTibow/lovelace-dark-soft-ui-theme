@@ -11,7 +11,7 @@ Dark Soft UI Purple:
   warning-color: "#EBEB60"
   error-color: "#D18941"
   # Background
-  primary-background-color: "#353238"
+  primary-background-color: "#353138"
   secondary-background-color: var(--primary-background-color)
   # Text
   primary-text-color: "#F7F8FA"

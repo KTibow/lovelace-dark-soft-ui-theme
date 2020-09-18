@@ -11,7 +11,7 @@ Dark Soft UI Red:
   warning-color: "#EBEB60"
   error-color: "#D18941"
   # Background
-  primary-background-color: "#383232"
+  primary-background-color: "#383131"
   secondary-background-color: var(--primary-background-color)
   # Text
   primary-text-color: "#F7F8FA"
