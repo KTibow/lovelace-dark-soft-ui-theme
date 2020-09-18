@@ -1,9 +1,9 @@
 # Thanks @JuanMTech, @thomasloven, and @N-l1.
 Dark Soft UI Cyan:
   # Color
-  primary-color: "#60bceb"
+  primary-color: "#60d4eb"
   light-primary-color: var(--primary-color)
-  accent-color: "#60ebdf"
+  accent-color: "#60ebc8"
   mdc-theme-secondary: var(--accent-color)
   # More colors
   success-color: "#77EB60"
@@ -11,7 +11,7 @@ Dark Soft UI Cyan:
   warning-color: "#EBEB60"
   error-color: "#D18941"
   # Background
-  primary-background-color: "#313638"
+  primary-background-color: "#313738"
   secondary-background-color: var(--primary-background-color)
   # Text
   primary-text-color: "#F7F8FA"
