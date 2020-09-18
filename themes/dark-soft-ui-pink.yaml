@@ -11,7 +11,7 @@ Dark Soft UI Pink:
   warning-color: "#EBEB60"
   error-color: "#D18941"
   # Background
-  primary-background-color: "#383138"
+  primary-background-color: "#383238"
   secondary-background-color: var(--primary-background-color)
   # Text
   primary-text-color: "#F7F8FA"
