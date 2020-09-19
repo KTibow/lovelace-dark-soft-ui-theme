@@ -1,5 +1,5 @@
 # Thanks @JuanMTech, @thomasloven, and @N-l1.
-Dark Soft UI Pink:
+Dark Soft UI Rose:
   # Color
   primary-color: "#eb60eb"
   light-primary-color: var(--primary-color)
@@ -118,7 +118,7 @@ Dark Soft UI Pink:
   pink-red: "#eb60bc"
   red-pink: "#eb608e"
   # Card-mod
-  card-mod-theme: "Dark Soft UI Pink"
+  card-mod-theme: "Dark Soft UI Rose"
   theme-red: firebrick
   theme-green: forestgreen
   theme-blue: deepskyblue
