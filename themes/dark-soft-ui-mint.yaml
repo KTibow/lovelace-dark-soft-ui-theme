@@ -420,10 +420,10 @@ Dark Soft UI Mint:
     $: |
       .mdc-dialog {
         backdrop-filter: blur(2px);
-        background-color: #313835b2 !important;
+        background-color: #313835cc !important;
       }
       .mdc-dialog__scrim {
-        background-color: #313835b2 !important;
+        background-color: #313835cc !important;
       }
       .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
         background: var(--primary-background-color);
